@@ -59,7 +59,7 @@ function getSolution()
         tempstr = "0" + QuestionNumberInput 
         console.log(tempstr)
     }
-    LocationToOpen = arr[ExerciseInput] + "\\" + tempstr + "_E" + ".html"
+    LocationToOpen = arr[ExerciseInput] + "//" + tempstr + "_E" + ".html"
     console.log(LocationToOpen)
     // window.open(LocationToOpen)
     
