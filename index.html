@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DISCRETE MATHEMATICS SOLUTION</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>DISCRETE MATHEMATICS <br> 5TH EDITION SOLUTION EXPLORER</h1>
+    
+    <div class="exerciseSelect">
+        <h2>Exercise : </h2>
+        <select onchange="getExerciseNumber()" id="exerciseSelectMenu">
+            <option value="-1">Select Exercise</option>
+            <option value="1">1.1</option>
+            <option value="2">1.2</option>
+            <option value="3">1.3</option>
+            <option value="4">2.1</option>
+            <option value="5">2.2</option>
+            <option value="6">2.3</option>
+            <option value="7">2.4</option>
+            <option value="8">2.5</option>
+            <option value="9">3.1</option>
+            <option value="10">3.2</option>
+            <option value="11">3.3</option>
+            <option value="12">3.4</option>
+            <option value="13">4.1</option>
+            <option value="14">4.2</option>
+            <option value="15">4.3</option>
+            <option value="16">4.4</option>
+            <option value="17">4.5</option>
+            <option value="18">4.6</option>
+            <option value="19">4.7</option>
+            <option value="20">4.8</option>
+            <option value="21">5.1</option>
+            <option value="22">5.2</option>
+            <option value="23">5.3</option>
+            <option value="24">5.4</option>
+            <option value="25">5.5</option>
+            <option value="26">5.6</option>
+            <option value="27">5.7</option>
+            <option value="28">5.8</option>
+            <option value="29">5.9</option>
+            <option value="30">6.1</option>
+            <option value="31">6.2</option>
+            <option value="32">6.3</option>
+            <option value="33">6.4</option>
+            <option value="34">7.1</option>
+            <option value="35">7.2</option>
+            <option value="36">7.3</option>
+            <option value="37">7.4</option>
+            <option value="38">8.1</option>
+            <option value="39">8.2</option>
+            <option value="40">8.3</option>
+            <option value="41">8.4</option>
+            <option value="42">8.5</option>
+            <option value="43">9.1</option>
+            <option value="44">9.2</option>
+            <option value="45">9.3</option>
+            <option value="46">9.4</option>
+            <option value="47">9.5</option>
+            <option value="48">9.6</option>
+            <option value="49">9.7</option>
+            <option value="50">9.8</option>
+            <option value="51">9.9</option>
+            <option value="52">10.1</option>
+            <option value="53">10.2</option>
+            <option value="54">10.3</option>
+            <option value="55">10.4</option>
+            <option value="56">10.5</option>
+            <option value="57">10.6</option>
+            <option value="58">10.7</option>
+            <option value="59">11.1</option>
+            <option value="60">11.2</option>
+            <option value="61">11.3</option>
+            <option value="62">11.4</option>
+            <option value="63">11.5</option>
+            <option value="64">12.1</option>
+            <option value="65">12.2</option>
+            <option value="66">12.3</option>
+
+        </select>
+    </div>
+
+    <div class="QuestionNumber">
+        <h2>Question Number </h2>
+        <input type="number" placeholder="Question Number " name="qNo"   id="quesNo" onchange="getQuestionNumber()" >
+    </div>
+    <div class="buttonDiv">
+        <button id="prev" onclick="showPrevQuestion()"><<</button>
+    <button id="getSolButton" onclick="getSolution()">Find Solution</button>
+    <button id="next" onclick="showNextQuestion()">>></button>
+</div>
+
+    <div class="answerDisplay" id="ansDisp">
+        <iframe src="" frameborder="0" id="myFrame"></iframe>
+    </div>
+
+    <div class="footer">
+        <h2>Developed with ❤️ by Abdullah Shakir</h2>
+    </div>
+
+    <h3>Note : incase of an error <br> 1. Recheck the Question Number <br> 2. Refresh the page and Try again  
+
+    </h3>
+        <h3>غافل تجھے گھڑیال دیتا ہے یہ منادی <br> گردوں نے گھڑی عمر کی اک اور گھٹا دی </h3> 
+        
+    </div>
+</body>
+</html>
